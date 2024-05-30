@@ -48,6 +48,7 @@ main{
     object-fit: cover;
     height: 100%;
     width: 100%;
+    border: solid 1px lightsteelblue;
     border-radius: 5px;
     /* clip-path: polygon(0 6%, 0 94%, 5% 100%, 95% 100%, 100% 94%, 100% 6%, 95% 0, 5% 0); */
     /* clip-path: polygon(0 6%, 0 100%, 95% 100%, 100% 94%, 100% 0, 5% 0); */
@@ -63,7 +64,7 @@ main{
     border-bottom: double 3px lightsteelblue;
 }
 .boothInfo h2{
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     border: none;
 }
 .boothInfo .flex{
@@ -80,10 +81,58 @@ main{
     border-radius: 12px;
 
 }
+
+/* .triggerg{
+    flex-shrink: 0;
+    height: fit-content;
+    margin: 0 10px;
+    padding: 0 12px;
+    height: 24px;
+    color: aliceblue;
+    background-color: midnightblue;
+    border-radius: 12px;
+} */
+
+/* .triggers{
+    flex-shrink: 0;
+    height: fit-content;
+    margin: 0 10px;
+    padding: 0 12px;
+    height: 24px;
+    color: aliceblue;
+    background-color: midnightblue;
+    border-radius: 12px;
+} */
+
+/* .triggero{   
+    flex-shrink: 0;
+    height: fit-content;
+    margin: 0 10px;
+    padding: 0 12px;
+    height: 24px;
+    color: aliceblue;
+    background-color: midnightblue;
+    border-radius: 12px;
+} */
+
 .tag img{
     height: 60%;
     margin-right: 5px;
 }
+
+/* .triggero img{
+    height: 60%;
+    margin-right: 5px;
+}
+.triggerg img{
+    height: 60%;
+    margin-right: 5px;
+}
+.triggers img{
+    height: 60%;
+    margin-right: 5px;
+} */
+
 
 @media screen and (max-width: 959px) {
 	/* 959px以下に適用されるCSS（タブレット用） */
@@ -95,6 +144,7 @@ main{
     }
     .booth{
         display: grid;
+        padding-bottom: 10px;
     }
     .imageImage{
         margin: auto;
@@ -116,12 +166,13 @@ main{
 
     .boothInfo .flex{
         margin: 0;
+        flex-wrap: wrap;
         justify-content: center;
-        padding-top: 5px;
+        padding-top: 2px;
         border-top: double 3px lightsteelblue;
     }
     .tag{
-        margin: 0 3px;
+        margin: 2px 2px;
     }
 
 }

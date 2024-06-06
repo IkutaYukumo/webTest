@@ -4,7 +4,7 @@ header{
     overflow: hidden;
     padding: 20px 0;
     height: 250px;
-    background-image: url(img/gate.JPG);
+    background-image: url(webp/gate.webp);
     background-size: cover;
     background-position: bottom;
 }
